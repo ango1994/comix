@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Graphic";
+  font-display: swap;
+  src: url("/src/assets/fonts/graphik-14.woff2") format("woff2");
+}
+
+body {
+  font-family: "Graphic", -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-weight: bolder;
+}
