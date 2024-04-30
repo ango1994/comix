@@ -9,4 +9,10 @@ body {
   font-family: "Graphic", -apple-system, BlinkMacSystemFont, avenir next, avenir,
     helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   font-weight: bolder;
+  color: #d8e0e8;
+  background-color: #14181c;
+}
+
+html {
+  font-size: 13px;
 }

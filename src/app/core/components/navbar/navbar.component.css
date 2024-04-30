@@ -1,0 +1,74 @@
+:host {
+  height: 72px;
+  display: block;
+}
+
+.nav:hover #search-q {
+  background-color: hsla(0, 0%, 100%, 0.8);
+  transition: background-color 0.3s ease, margin 0.3s ease;
+}
+
+.nav,
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  color: inherit;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+#search-q {
+  transition: background-color 0.3s ease, margin 0.3s ease;
+  border-radius: 15px;
+  box-shadow: none;
+  width: 80px;
+  height: 15px;
+  color: #89a;
+  background-color: hsla(0, 0%, 100%, 0.25);
+  border: 0;
+  outline: none;
+}
+#search-q:focus {
+  transition: background-color 0.3s ease, margin 0.3s ease;
+  background-color: white !important;
+}
+
+.search-l {
+  background: url("../../../../assets/images/search-icon.svg") no-repeat;
+  border: none;
+  cursor: pointer;
+  display: block;
+  height: 1px;
+  right: 22px;
+  padding: 14px 0 0;
+  position: relative;
+}
+
+input {
+  padding: 6px 25px 6px 10px;
+}
+
+img {
+  height: 25px;
+}
+
+.search-icon {
+  position: relative;
+  top: 6px;
+  right: 26px;
+  height: 20px;
+  background-color: hsla(0, 0%, 100%, 0.261);
+}
